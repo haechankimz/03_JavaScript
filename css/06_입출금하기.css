@@ -1,0 +1,23 @@
+.div1{
+    width: 350px;
+    height: 350px;
+    border: 3px solid gold;
+    background-color: darkolivegreen;
+    color: black;
+    margin: auto;
+    padding: 30px;
+}
+.div-row{
+    display: flex;
+    margin-top: 150px;
+    padding: auto;
+}
+
+.btn-row{
+    width: 500px;
+    height: 500px;
+    margin: 0 5px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
