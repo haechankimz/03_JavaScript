@@ -44,20 +44,20 @@
           -> alert("비밀번호가 일치하지 않습니다") 출력
       </pre>
 
-     <div class="div1">
+     <div class="account">
           <div class="row">
-            <h1>잔액 : <span id="balance"></span>원</h1>
+            <h1>잔액 : <span id="output"></span>원</h1>
           </div>
     
-          <div class="row">
-            <h1>금액 : <input type="number" id="amount"></h1>
+          <div class="row input-row">
+            <label for="amout">금액 : </label>
+            <input type="text" id="amount">
+            <span>원</span>
           </div>
-     
-            <br>
 
             <div class="row btn-row">
-                <button onclick="deposit()">입금</button> 
-                <button onclick="withdrawal()">출금</button>
+                <button class="deposit-btn" onclick="deposit()">입금</button> 
+                <button class="withdrawal-btn" onclick="withdrawal()">출금</button>
             </div>
      </div>   
 
