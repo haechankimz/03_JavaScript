@@ -16,12 +16,12 @@
 }
 
 .box{
-  width: 350px;
+  width: 310px;
   height: 700px;
   border: 1px solid black;
-  padding: 0 5px;
+  padding: 5 5px;
 }
-ul>li{
+.number{
   display: flex;
   align-items: center;
   justify-content: center;
