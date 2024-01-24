@@ -1,0 +1,39 @@
+.keybox{
+  box-sizing: border-box;
+  width: 300px;
+  height: 400px;
+  margin: 15px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.key{
+  border: 1px solid black;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;  /* 글자 가운데 */
+  justify-content: center;  /* 글자 가운데 */
+  cursor: pointer;
+  user-select: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.key:hover{
+  background-color: skyblue;
+}
+
+.key:active{
+  background-color: orange;
+  border: 1px solid black;
+}
+
+#result{
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
