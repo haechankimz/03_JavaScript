@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 600px;
+  height: 515px;
+  margin: 50px auto;
+  padding: auto;
+}
+
+.numberArea{
+  float: left;
+  width: 50%;
+}
+
+.listArea{
+  float: right;
+  width: 40%;
+  height: 514px;
+  border-left: 1px solid #ccc;
+  justify-content: center;
+  text-align: center;
+}
+
+#text{
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;  
+  margin-bottom: 10px;
+}
+
+.numberText{
+  width: 320px;
+  height: 50px;
+  margin-bottom: 7px;
+  align-items: flex-start;
+  border: 1px solid bottom black;
+  font-size: 28px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+
+.keybox{
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  padding: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.key{
+  width: 95px;
+  height: 95px;
+  display: flex;
+  align-items: center;  
+  justify-content: center;  
+  cursor: pointer;
+  user-select: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.phoneNumber{
+  list-style: none;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+#addBtn{
+  width: 300px;
+  height: 25px;
+  margin-bottom: 7px;
+  display: flex;
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+
+#resetBtn{
+  width: 300px;
+  height: 25px;
+  display: flex;
+  background-color: white;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+
+.key:hover{
+  border-radius: 100%;
+  background-color: lightgrey;
+
+}
+
+
+.key:active{
+  border: 1px solid rgb(114, 113, 113);
+  border-radius: 100%;
+  background-color: rgb(114, 113, 113);
+}
+
+#addBtn:active{
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+}
+
+#resetBtn:active{
+  background-color: gray;
+  color: white;
+  border: 1px solid black;
+}
+
+span{
+  cursor: pointer;
+}

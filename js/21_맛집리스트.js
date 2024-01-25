@@ -100,6 +100,6 @@ selectBtn.addEventListener("click", () => {
 
   // li 요소를 #printList의 마지막 자식으로 추가
   printList.append(li);
-  }
+  } 
 
 });
